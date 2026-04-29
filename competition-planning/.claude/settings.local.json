@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "WebSearch",
+      "WebFetch(domain:code.claude.com)",
+      "WebFetch(domain:dacon.io)",
+      "WebFetch(domain:thinkyou.co.kr)",
+      "WebFetch(domain:daker.ai)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:agentskills.io)",
+      "WebFetch(domain:www.koyfin.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:platform.claude.com)",
+      "WebFetch(domain:julius.ai)"
+    ],
+    "deny": [
+      "Delete",
+      "Rm"
+    ],
+    "ask": [
+      "Write",
+      "Edit",
+      "WebSearch",
+      "WebFetch",
+      "Bash"
+    ]
+  }
+}
